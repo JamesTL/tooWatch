@@ -1,15 +1,17 @@
-(function() {
-  'use strict';
+(function () {
+    'use strict';
+    //
+    //describe('maincontroller', function () {
+    //
+    //    beforeEach(module('tooWatch'));
+    //
+    //    it('should contain an list of service id to  survey', inject(function ($controller) {
+    //
+    //        var vm = $controller('MainController');
+    //        expect(angular.isArray(vm.sourceList)).toBeTruthy();
+    //
+    //    }));
+    //
+    //});
 
-  describe('controllers', function(){
-
-    beforeEach(module('tooWatch'));
-
-    it('should define more than 5 awesome things', inject(function($controller) {
-      var vm = $controller('MainController');
-
-      expect(angular.isArray(vm.awesomeThings)).toBeTruthy();
-      expect(vm.awesomeThings.length > 5).toBeTruthy();
-    }));
-  });
 })();

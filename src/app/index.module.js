@@ -2,6 +2,6 @@
   'use strict';
 
   angular
-    .module('tooWatch', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router']);
+    .module('tooWatch', ['ngAnimate', 'ngCookies', 'ngTouch', 'ngSanitize', 'ui.router','tooWatch.services']);
 
 })();
