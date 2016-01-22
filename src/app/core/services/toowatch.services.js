@@ -2,6 +2,7 @@
     'use strict';
     angular
         .module('tooWatch.services',[
-            'tooWatch.getSources'
+            'tooWatch.getSources',
+            'tooWatch.getMovies'
         ])
 })();

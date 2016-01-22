@@ -17,8 +17,8 @@
                     'page-header': {templateUrl: 'app/main/main.html'}
                 }
             })
-            .state('sources', {
-                url: '/sources',
+            .state('film', {
+                url: '/film',
                 views: {
                     'page-header': {templateUrl: 'app/components/sourcesList/sourceListHeader.html'},
                     'left-content': {templateUrl: 'app/components/sourcesList/sourceList.html'}

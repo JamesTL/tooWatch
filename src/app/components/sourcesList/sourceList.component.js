@@ -12,6 +12,7 @@
 
         var vm = this;
         vm.channelList = [];
+        vm.selectedSourceID = 0;
 
         GetSources.getChannels()
             .success(function (data) {
@@ -38,6 +39,9 @@
 
         return directive
         function link() {
+
+
+
 
         }
     }
